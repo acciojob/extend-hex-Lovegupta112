@@ -1,5 +1,6 @@
 const extendHex = (shortHex) => {
   // write your code here
+	shortHex=shortHex.toLowerCase();
 	let arr=shortHex.split("");
 	let res='';
 	for(let i=1;i<arr.length;i++){
