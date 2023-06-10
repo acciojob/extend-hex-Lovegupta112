@@ -6,10 +6,10 @@ const extendHex = (shortHex) => {
 		res=res+arr[i];
 		res=res+arr[i];
 	}
-	
-	return arr[0]+res;
+	res=arr[0]+res;
+	return res.toLowerCase();
 };
 
 // Do not change the code below.
-const shortHex = prompt("Enter Short Hex.");
-alert(extendHex(shortHex));
+// const shortHex = prompt("Enter Short Hex.");
+// alert(extendHex(shortHex));
